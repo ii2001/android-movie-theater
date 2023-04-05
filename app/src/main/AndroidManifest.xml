@@ -8,12 +8,11 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Movie"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".movieList.MovieListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +20,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".movieDetail.MovieDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".purchaseConfirmation.PurchaseConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seat.TheaterSeatActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
