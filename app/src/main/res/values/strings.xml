@@ -17,4 +17,9 @@
     <string name="time_date">TIME DATE</string>
     <string name="확인">확인</string>
     <string name="reserved_information">영화 정보</string>
+
+    <!--    bottom navigation menu-->
+    <string name="title_reserve">예매 정보</string>
+    <string name="title_home">홈</string>
+    <string name="title_setting">설정</string>
 </resources>

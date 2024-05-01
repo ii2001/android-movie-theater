@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/title_home"
+        android:icon="@drawable/selector_home"/>
+
+    <item
+        android:id="@+id/reserveFragment"
+        android:title="@string/title_reserve"
+        android:icon="@drawable/selector_reserve"/>
+
+    <item
+        android:id="@+id/settingFragment"
+        android:title="@string/title_setting"
+        android:icon="@drawable/selector_setting"/>
+</menu>
