@@ -38,6 +38,12 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    packaging {
+        resources {
+            excludes += "META-INF/**"
+            excludes += "win32-x86*/**"
+        }
+    }
 }
 
 dependencies {
