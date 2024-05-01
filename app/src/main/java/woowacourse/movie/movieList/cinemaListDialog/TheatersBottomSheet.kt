@@ -77,6 +77,7 @@ class TheatersBottomSheetFragment : BottomSheetDialogFragment() {
                 Intent(this, MovieDetailActivity::class.java).apply {
                     putExtra("Cinema", cinema)
                 }
+            dismiss()
             startActivity(intent)
         }
     }

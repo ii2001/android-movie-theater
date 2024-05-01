@@ -53,7 +53,6 @@ class MovieListActivity : AppCompatActivity(), MovieListView {
         }
         bottomSheet.show(supportFragmentManager, bottomSheet.tag)
     }
-
 }
 
 val THEATER_KEY = "theaterKey"
