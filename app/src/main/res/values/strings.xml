@@ -22,4 +22,6 @@
     <string name="title_reserve">예매 정보</string>
     <string name="title_home">홈</string>
     <string name="title_setting">설정</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
